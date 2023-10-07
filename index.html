@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Change content of an anchor tag</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
@@ -25,7 +25,18 @@
         <p>Already have an account?</p>
         <p><a href="#">Log in</a></p>
       </form>
-    </div> <br>
+    </div>
+    <br />
     <a href="#" id="follow-link">follow</a>
+    <script>
+      function follow(e) {
+        e.preventDefault;
+        let updatedFollowLink = document.getElementById("follow-link");
+        updatedFollowLink.innerHTML = "following";
+      }
+
+      let followLink = document.querySelector("#follow-link");
+      followLink.addEventListener("click", follow);
+    </script>
   </body>
 </html>
