@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: blue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+h1{
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: brown;
+}
+.container{
+    max-width: 700px;
+    padding: 25px;
+    border-radius: 25px 30px;
+    background: rgb(198, 160, 235);
+}
+button{
+ padding-left: 7px;
+ padding-right: 15px;
+    margin-bottom: 5px;
+    width: 250px;
+}
+#name{
+    margin: 10px 6px 5px 0px;
+    width: 250px;
+    padding: 7px;
+}
+#email{
+margin: 10px 6px 5px 0px;
+width: 250px; 
+padding: 7px;
+}
+#pass{
+    margin: 10px 6px 10px 0px;
+    padding: 7px;
+    width: 250px;
+}
+.signup{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color:black;
+    border-style: groove;
+}
+.signup:hover{
+    background: orange;
+    color: black;
+}
+#check{
+    margin: 3px;
+}
+span{
+    color: black;
+}
+p{
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
